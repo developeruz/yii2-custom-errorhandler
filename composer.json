@@ -1,0 +1,25 @@
+{
+    "name": "developeruz/yii2-custom-errorhandler",
+    "description": "Custom error handler for Yii 2.x application",
+    "keywords": ["yii", "yii2", "security", "error handler"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elvira Sheina",
+            "email": "elleuz@gmail.com",
+            "homepage": "http://developer.uz"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "support": {
+        "issues": "https://github.com/developeruz/yii2-custom-errorhandler/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "developeruz\\yii2_custom_errorhandler\\": ""
+        }
+    }
+}
