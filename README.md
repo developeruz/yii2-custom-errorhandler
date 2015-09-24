@@ -29,7 +29,7 @@ $ php composer.phar require developeruz/yii2-custom-errorhandler "*"
     {
         return [
             'error' => [
-                'class' => 'app\components\ErrorHandler',
+                'class' => 'developeruz\yii2_custom_errorhandler\ErrorHandler',
                 'array_of_exceptions' => [
                     403 => function()
                     {
